@@ -1,0 +1,14 @@
+# Deep Learning
+tensorflow>=2.15.0
+numpy>=1.24.0
+Pillow>=10.0.0
+matplotlib>=3.8.0
+
+# Streamlit App
+streamlit>=1.25.0
+
+# Hugging Face Datasets
+datasets>=2.16.0
+
+# Optional: For image preprocessing with OpenCV (if needed)
+opencv-python>=4.8.0
