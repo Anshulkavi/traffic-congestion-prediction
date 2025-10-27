@@ -1,14 +1,33 @@
-# Deep Learning
-tensorflow>=2.15.0
-numpy>=1.24.0
-Pillow>=10.0.0
-matplotlib>=3.8.0
+# ===============================
+# AI Traffic Congestion Prediction
+# ===============================
+# Python >= 3.8
 
-# Streamlit App
+# --- Core Scientific Libraries ---
+numpy>=1.24.0
+matplotlib>=3.8.0
+pillow>=10.0.0
+opencv-python>=4.8.0
+
+# --- Deep Learning Framework ---
+tensorflow>=2.15.0
+scikit-learn>=1.3.0
+
+# --- Streamlit Web App ---
 streamlit>=1.25.0
 
-# Hugging Face Datasets
+# --- Dataset Handling ---
 datasets>=2.16.0
 
-# Optional: For image preprocessing with OpenCV (if needed)
-opencv-python>=4.8.0
+# --- Utilities ---
+jsonschema>=4.19.0
+pandas>=2.0.0
+protobuf>=3.20.0
+
+# --- Object Detection (YOLOv8) ---
+ultralytics>=8.0.0
+
+# --- Optional: For GPU/Deployment ---
+# tensorflow-gpu>=2.15.0  # GPU support (requires CUDA)
+# flask>=2.3.0            # REST API deployment
+# gunicorn>=21.2.0        # Production WSGI server
